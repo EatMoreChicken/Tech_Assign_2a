@@ -34,7 +34,7 @@ namespace Tech_Proj_2a
                 int input = int.Parse(Console.ReadLine());
 
                 /* The if statement will determine if the value inputted is between the constrains specified in the local variable "MIN_VALUE" and "MAX_VALUE". 
-                If it passes, it will continue to the for loop.*/
+                If it passes, it will continue to the for loop. */
                 if ((input>MIN_VALUE) && (input<MAX_VALUE)) {
                     /* The for loop in declaring the local variable "i" to keep track of the number of times the loop has run. I initially give the variable "i" the value of "1", 
                      else it will start counting from "0" (simply to make it more intuitive). Every time the code within the loop runs, the "i++" is used to increment the value of
@@ -44,9 +44,9 @@ namespace Tech_Proj_2a
                         /* This portion of the code will run every time the the value of "i" is incremented and is within the constrains stated above. */
                         Console.WriteLine("You have entered " + input.ToString() + ". This is the current integer value in the loop: " + i.ToString());
                     }
-                    // Lets the user know that the code is done counting
+                    // Lets the user know that the code is done counting.
                     Console.WriteLine("Done! Reopen the program to try again. Press any key to continue...");
-                    // Waiting for the user to click a key to exit the code
+                    // Waiting for the user to click a key to exit the code.
                     Console.ReadKey(true);
                 }
                 /* If the value inputted by the user is not within the constraints of the minimum and maximum values, it will print the following strings to the command line.*/
@@ -56,7 +56,7 @@ namespace Tech_Proj_2a
                     /*The string will print out minimum and maximum integer expected. The string also prompts the user to reopen the program to try again.*/
                     Console.WriteLine("Plase enter an integer that is between " + MIN_VALUE.ToString() + " and " + MAX_VALUE.ToString() + ". (Not including the minimum and maximum integers.)");
                     Console.WriteLine("The program will now exit. Please reopen to try again. Press any key to continue...");
-                    // Waiting for the user to click a key to exit the code
+                    // Waiting for the user to click a key to exit the code.
                     Console.ReadKey(true);
                 }
             }
@@ -66,7 +66,7 @@ namespace Tech_Proj_2a
                 /*The string will print out minimum and maximum integer expected. The string also prompts the user to reopen the program to try again.*/
                 Console.WriteLine("Plase enter an integer that is between " + MIN_VALUE.ToString() + " and " + MAX_VALUE.ToString() + ". (Not including the minimum and maximum integers.)");
                 Console.WriteLine("The program will now exit. Please reopen to try again. Press any key to continue...");
-                // Waiting for the user to click a key to exit the code
+                // Waiting for the user to click a key to exit the code.
                 Console.ReadKey(true);
             }
         }
